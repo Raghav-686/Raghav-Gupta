@@ -1,0 +1,16 @@
+<div class="order-container">
+    <div class="order-inner-container">
+        <div class="order-block" *ngFor="let data of orderService.order_data">
+            <div class="order-img">
+                <img src={{data.img}} alt="">
+            </div>
+            <div class="order-desc">
+                <p>{{data.desc}}</p>
+                <p class="desc">${{data.price}}</p>
+            </div>
+            <div class="order-add-button">
+                <button (click)="add(data)">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+</div>

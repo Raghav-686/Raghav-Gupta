@@ -1,0 +1,65 @@
+.order-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.order-inner-container {
+    min-height: 400px;
+}
+
+.order-block {
+    display: flex;
+    border: 1px solid #00000026;
+    border-radius: 5px;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 1.8rem;
+    background-color: #00000026;
+}
+
+
+.order-img {
+
+    width: 10%;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.order-desc {
+    width: 30%;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 2rem;
+    margin-left: .88rem;
+
+    .desc {
+        padding-top: 7px;
+    }
+}
+
+
+.order-add-button {
+    width: 50%;
+    text-align: center;
+
+    button {
+        margin-top: 3rem;
+        font-size: 0.88rem;
+        font-weight: bold;
+        background: #abb747;
+        color: #fff;
+        border-color: #abb747;
+        padding: 8px 15px 8px;
+        cursor: pointer;
+        border-radius: 9px;
+    }
+
+    button:active {
+        transform: translate(0, 0.3rem);
+    }
+}

@@ -1,0 +1,63 @@
+.two-button {
+    display: flex;
+}
+
+.left-button {
+    width: 50%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.order {
+    width: 90%;
+    margin: 0 auto;
+
+
+    button {
+        float: right;
+    }
+}
+
+.cart {
+    width: 90%;
+    margin: 0 auto;
+
+    button {
+        float: left;
+    }
+}
+
+
+.right-button {
+    width: 50%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: 1px solid #0080005c;
+    background-color: #008000c4;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.button:hover {
+    background-color: lightgreen;
+
+}
+
+.button:active {
+    transform: translate(0, 0.3rem);
+}
+
+.hrline {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
